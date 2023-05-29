@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!--  FontAwesome link for icons -->
+    <script
+      src="https://kit.fontawesome.com/74894dafb2.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- Google Font link for awesome text -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Alarm clock</title>
+  </head>
+  <body>
+    <!-- Main container -->
+    <div class="main">
+      <!-- Image of clock -->
+      <img src="./Assets/image.jpg" alt="clock" />
+
+      <!-- Displaing the time -->
+      <h1>00:00:00 AM</h1>
+
+      <!-- Content section -->
+      <div class="content">
+        <div class="col">
+          <!-- Dropdown for selecting hour -->
+          <select>
+            <option value="Hour" selected hidden>Hour</option>
+          </select>
+        </div>
+        <div class="col">
+          <!-- Dropdown for selecting minute -->
+          <select>
+            <option value="Minute" selected hidden>Minute</option>
+          </select>
+        </div>
+        <div class="col">
+          <!-- Dropdown for selecting second -->
+          <select>
+            <option value="Second" selected hidden>Sec</option>
+          </select>
+        </div>
+        <div class="col">
+          <!-- Dropdown for selecting AM/PM -->
+          <select>
+            <option value="AM/PM" selected hidden>AM/PM</option>
+          </select>
+        </div>
+      </div>
+
+      <!-- Set Alarm button -->
+      <button>Set Alarm</button>
+
+      <!-- Stop Alarm button -->
+      <button>Stop Alarm</button>
+
+      <!-- Alarm text section -->
+      <div class="alarm-text">
+        <h2>Alarms:</h2>
+      </div>
+
+      <!-- List of alarms -->
+      <div class="alarms">
+        <ul></ul>
+      </div>
+
+      <!-- Reset Alarms button -->
+      <button>Reset Alarms</button>
+    </div>
+
+    <!-- JavaScript file -->
+    <script src="index.js"></script>
+  </body>
+</html>
