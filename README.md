@@ -11,3 +11,11 @@ The Digital Web Application is a user-friendly alarm clock that allows users to 
 - **Alarms Reset Funtionality**
 
 
+# TechStack
+
+- **HTML**
+- **CSS**
+- **JavaScript**
+
+
+#Approach
