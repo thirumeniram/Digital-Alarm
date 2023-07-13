@@ -7,8 +7,8 @@ The Digital Web Application is a user-friendly alarm clock that allows users to 
 - **Real-Time Clock Display**
 - **Multiple Alarm Setting**
 - **Audio Playback During Alarm**
-- **Stop ans Delete Alarm Functionality**
-- **Alarms Reset Funtionality**
+- **Stop and Delete Alarm Functionality**
+- **Alarms Reset Functionality**
 
 
 # TechStack
